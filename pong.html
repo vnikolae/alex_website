@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Pong</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="game-page">
+  <div class="game-container">
+    <a class="back-link" href="index.html">← Back to Arcade</a>
+    <h1 class="game-title">Alex Pong</h1>
+    <p class="game-instructions">Move your paddle with <b>W / S</b> or your <b>mouse</b>. First to 7 wins.</p>
+    <div class="scoreboard">
+      <div>Alex: <span id="playerScore">0</span></div>
+      <div>CPU: <span id="cpuScore">0</span></div>
+    </div>
+    <canvas id="pong" width="720" height="440"></canvas>
+  </div>
+  <script src="pong.js"></script>
+</body>
+</html>

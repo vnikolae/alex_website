@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Snake</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="game-page">
+  <div class="game-container">
+    <a class="back-link" href="index.html">← Back to Arcade</a>
+    <h1 class="game-title">Alex Snake</h1>
+    <p class="game-instructions">Use the <b>arrow keys</b> or <b>WASD</b> to move. Eat the 🍎 to grow.</p>
+    <div class="scoreboard">
+      <div>Score: <span id="score">0</span></div>
+      <div>Best: <span id="best">0</span></div>
+    </div>
+    <canvas id="snake" width="600" height="600"></canvas>
+  </div>
+  <script src="snake.js"></script>
+</body>
+</html>
